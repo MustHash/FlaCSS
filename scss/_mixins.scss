@@ -2,8 +2,8 @@
   position: relative;
 }
 
-@mixin pseudo {
-  content: "";
+@mixin pseudo($char: "") {
+  content: $char;
   display: block;
   position: absolute;
 }

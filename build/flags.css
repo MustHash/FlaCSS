@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Country: Greece
  * Link:    https://en.wikipedia.org/wiki/Flag_of_Greece
@@ -32,4 +33,45 @@
   top: 4em;
   left: 0;
   background: white;
+}
+
+/**
+ * Country: United States of America
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_the_United_States
+ * Ratio:   10:19
+ * Colours: red   - #b22234
+ *          white - #ffffff
+ *          blue  - #3c3b6e
+ */
+.flacss-usa {
+  position: relative;
+  height: 10em;
+  width: 19em;
+  background: repeating-linear-gradient(0, #b22234, #b22234 7.69231%, #ffffff 7.69231%, #ffffff 15.38462%);
+}
+
+.flacss-usa::before,
+.flacss-usa::after {
+  height: 53.84615%;
+  width: 38%;
+  font-size: .5em;
+  line-height: 1.9em;
+  letter-spacing: 1.2em;
+  color: #ffffff;
+}
+
+.flacss-usa::before {
+  content: "★★★★★★\a★★★★★★\a★★★★★★\a★★★★★★\a★★★★★★";
+  display: block;
+  position: absolute;
+  padding-left: 2%;
+  background: #3c3b6e;
+}
+
+.flacss-usa::after {
+  content: "★★★★★\a★★★★★\a★★★★★\a★★★★★";
+  display: block;
+  position: absolute;
+  top: .9em;
+  left: 1.8em;
 }

@@ -1,0 +1,57 @@
+/**
+ * Country: United States of America
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_the_United_States
+ * Ratio:   10:19
+ * Colours: red   - #b22234
+ *          white - #ffffff
+ *          blue  - #3c3b6e
+ */
+.#{$namespace}-usa {
+  @include flag;
+  $height: 10em;
+  $width: 19em;
+  height: $height;
+  width: $width;
+
+  // Colours
+  $red: #b22234;
+  $white: #ffffff;
+  $blue: #3c3b6e;
+
+  // Dimensions
+  $canton-height: (7/13) * 100%;
+  $canton-width: (2/5) * 100%;
+  $stripe-height: (1/13) * 100%;
+
+  background: repeating-linear-gradient(
+    0,
+    $red,
+    $red $stripe-height,
+    $white $stripe-height,
+    $white $stripe-height*2
+  );
+
+  &::before,
+  &::after {
+    height: $canton-height;
+    width: $canton-width - 2%;
+    font-size: .5em;
+    line-height: 1.9em;
+    letter-spacing: 1.2em;
+    color: $white;
+  }
+
+  &::before {
+    @include pseudo("★★★★★★\a★★★★★★\a★★★★★★\a★★★★★★\a★★★★★★");
+
+    padding-left: 2%;
+    background: $blue;
+  }
+
+  &::after {
+    @include pseudo("★★★★★\a★★★★★\a★★★★★\a★★★★★");
+
+    top: .9em;
+    left: 1.8em;
+  }
+}
