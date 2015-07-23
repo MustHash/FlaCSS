@@ -1,0 +1,9 @@
+@mixin flag {
+  position: relative;
+}
+
+@mixin pseudo {
+  content: "";
+  display: block;
+  position: absolute;
+}

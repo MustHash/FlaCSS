@@ -1,0 +1,54 @@
+/**
+ * Country: Greece
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Greece
+ * Ratio:   2:3
+ * Colours: blue - #001489
+ *          white
+ */
+.#{$namespace}-greece {
+  $height: 18em;
+  $width: 27em;
+  $blue: #001489;
+  $white: #ffffff;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  background: repeating-linear-gradient(
+    0,
+    $blue,
+    $blue 2em,
+    $white 2em,
+    $white 4em
+  );
+
+  &::before {
+    @include pseudo;
+
+    height: 10em;
+    width: 10em;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      to right,
+      $blue,
+      $blue 4em,
+      $white 4em,
+      $white 6em,
+      $blue 6em,
+      $blue 10em,
+      $blue
+    );
+  }
+
+  &::after {
+    @include pseudo;
+
+    height: 2em;
+    width: 10em;
+    top: 4em;
+    left: 0;
+    background: white;
+  }
+}
