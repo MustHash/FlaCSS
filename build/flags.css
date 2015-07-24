@@ -75,3 +75,31 @@
   top: .9em;
   left: 1.8em;
 }
+
+/**
+ * Country: Japan
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Japan
+ * Ratio:   2:3
+ * Colours: red   - #ef3340
+ *          white - #ffffff
+ */
+.flacss-japan {
+  position: relative;
+  height: 10em;
+  width: 15em;
+  background: #ffffff;
+}
+
+.flacss-japan::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  background: #ef3340;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-top: -3em;
+  margin-left: -3em;
+}

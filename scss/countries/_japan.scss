@@ -1,0 +1,32 @@
+/**
+ * Country: Japan
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Japan
+ * Ratio:   2:3
+ * Colours: red   - #ef3340
+ *          white - #ffffff
+ */
+.#{$namespace}-japan {
+  @include flag;
+
+  $height: 2em;
+  $width: 3em;
+  $red: #ef3340;
+  $white: #ffffff;
+
+  height: $height;
+  width: $width;
+  background: $white;
+
+  $discSize: (3/5) * $height;
+  &::before {
+    @include pseudo;
+    height: $discSize;
+    width: $discSize;
+    background: $red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -$discSize / 2;
+    margin-left: -$discSize / 2;
+  }
+}
