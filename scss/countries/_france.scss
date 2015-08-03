@@ -1,0 +1,21 @@
+/**
+ * Country: France
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_France
+ * Ratio:   2:3
+ * Colours: blue - #0055a4
+ *          white
+ *          red - #ef4135
+ */
+.#{$namespace}-france {
+  $height: 2em;
+  $width: 3em;
+  $blue: #0055a4;
+  $white: #ffffff;
+  $red: #ef4135;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-vertical-stripes($blue, $white, $red);
+}

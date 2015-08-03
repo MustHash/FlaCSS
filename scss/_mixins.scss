@@ -15,25 +15,32 @@
   position: absolute;
 }
 
+
 /**
- * Future mixin for striped flags.
+ * Striped flag mixins.
  */
-@mixin stripes-vertical($colour1, $width1, $colour2, $width2, $colour3, $width3) {
-  $stop1: $width1;
-  $stop2: $width1 + $width2;
-  $stop3: $width1 + $width2 + $width3;
+
+@mixin three-stripes($angle, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3) {
+  @if $percent1 == false {
+    $percent1: 33.33%;
+    $percent2: 66.66%;
+    $percent3: 100%;
+  }
 
   background: linear-gradient(
-    to right,
+    $angle,
     $colour1,
-    $colour1 $stop1,
-    $colour2 $stop1,
-    $colour2 $stop2,
-    $colour3 $stop2,
-    $colour3 $stop3
+    $colour1 $percent1,
+    $colour2 $percent1,
+    $colour2 $percent2,
+    $colour3 $percent2,
+    $colour3 $percent3
   );
 }
 
-@mixin stripes-horizontal($colour1, $width1, $colour2, $width2, $colour3, $width3) {
-    background: linear-gradient(to bottom, $args...);
+@mixin three-vertical-stripes($colour1, $colour2, $colour3, $percent1: false, $percent2: false, $percent3: false) {
+  @include three-stripes(to right, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3);
 }
+
+
+

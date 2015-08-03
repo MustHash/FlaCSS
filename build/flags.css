@@ -19,7 +19,7 @@
  * @param  {String} $char: ""  Content string, is necessary.
  */
 /**
- * Future mixin for striped flags.
+ * Striped flag mixins.
  */
 /**
  * Country: Greece
@@ -124,4 +124,19 @@
   left: 50%;
   margin-top: -0.6em;
   margin-left: -0.6em;
+}
+
+/**
+ * Country: France
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_France
+ * Ratio:   2:3
+ * Colours: blue - #0055a4
+ *          white
+ *          red - #ef4135
+ */
+.flacss-france {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to right, #0055a4, #0055a4 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ef4135 66.66%, #ef4135 100%);
 }
