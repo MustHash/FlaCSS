@@ -42,5 +42,9 @@
   @include three-stripes(to right, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3);
 }
 
+@mixin three-horizontal-stripes($colour1, $colour2, $colour3, $percent1: false, $percent2: false, $percent3: false) {
+  @include three-stripes(to bottom, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3);
+}
+
 
 

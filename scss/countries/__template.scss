@@ -1,0 +1,16 @@
+/**
+ * Country: -
+ * Link:    -
+ * Ratio:   -
+ * Colours: <name> - <hex>
+ *          <name> - <hex>
+ */
+.#{$namespace}- {
+  $height: 2em;
+  $width: 3em;
+  $white: #ffffff;
+
+  @include flag;
+  height: $height;
+  width: $width;
+}

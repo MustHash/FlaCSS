@@ -1,0 +1,21 @@
+/**
+ * Country: Germany
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Germany
+ * Ratio:   3:5
+ * Colours: black  - #000000
+ *          red    - #ff0000
+ *          yellow - #ffCC00
+ */
+.#{$namespace}-germany {
+  $height: 3em;
+  $width: 5em;
+  $black: #000000;
+  $red: #ff0000;
+  $yellow: #ffCC00;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($black, $red, $yellow);
+}
