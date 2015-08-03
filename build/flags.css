@@ -155,3 +155,18 @@
   width: 5em;
   background: linear-gradient(to bottom, #000000, #000000 33.33%, #ff0000 33.33%, #ff0000 66.66%, #ffCC00 66.66%, #ffCC00 100%);
 }
+
+/**
+ * Country: Russia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Russia
+ * Ratio:   2:3
+ * Colours: white - #ffffff
+ *          blue  - #0039a6
+ *          red   - #d52b1e
+ */
+.flacss-russia {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #ffffff, #ffffff 33.33%, #0039a6 33.33%, #0039a6 66.66%, #d52b1e 66.66%, #d52b1e 100%);
+}

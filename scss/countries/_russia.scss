@@ -1,0 +1,22 @@
+/**
+ * Country: Russia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Russia
+ *          https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg
+ * Ratio:   2:3
+ * Colours: white - #ffffff
+ *          blue  - #0039a6
+ *          red   - #d52b1e
+ */
+.#{$namespace}-russia {
+  $height: 2em;
+  $width: 3em;
+  $white: #ffffff;
+  $blue: #0039a6;
+  $red: #d52b1e;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($white, $blue, $red);
+}
