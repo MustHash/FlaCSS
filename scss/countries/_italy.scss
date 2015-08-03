@@ -1,0 +1,21 @@
+/**
+ * Country: Italy
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Italy
+ * Ratio:   2:3
+ * Colours: green - #009246
+ *          white - #f1f2f1
+ *          red   - #ce2b37
+ */
+.#{$namespace}-italy {
+  $height: 2em;
+  $width: 3em;
+  $green: #009246;
+  $white: #f1f2f1;
+  $red: #ce2b37;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-vertical-stripes($green, $white, $red);
+}

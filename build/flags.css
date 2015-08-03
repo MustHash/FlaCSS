@@ -186,3 +186,18 @@
   width: 3em;
   background: linear-gradient(to bottom, #ed2923, #ed2923 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ed2923 66.66%, #ed2923 100%);
 }
+
+/**
+ * Country: Italy
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Italy
+ * Ratio:   2:3
+ * Colours: green - #009246
+ *          white - #f1f2f1
+ *          red   - #ce2b37
+ */
+.flacss-italy {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to right, #009246, #009246 33.33%, #f1f2f1 33.33%, #f1f2f1 66.66%, #ce2b37 66.66%, #ce2b37 100%);
+}

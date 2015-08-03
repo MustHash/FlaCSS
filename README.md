@@ -89,7 +89,7 @@ Flags from all around the world, just with CSS.
 - [ ] Iraq
 - [ ] Ireland
 - [ ] Israel
-- [ ] Italy
+- [x] Italy
 - [ ] Jamaica
 - [x] Japan
 - [ ] Jordan
