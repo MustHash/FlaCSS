@@ -1,9 +1,39 @@
+/**
+ * General mixin all flags should import, containing common settings.
+ */
 @mixin flag {
   position: relative;
 }
 
+/**
+ * General mixin for pseudo elements, setting their base position & visibility.
+ * @param  {String} $char: ""  Content string, is necessary.
+ */
 @mixin pseudo($char: "") {
   content: $char;
   display: block;
   position: absolute;
+}
+
+/**
+ * Future mixin for striped flags.
+ */
+@mixin stripes-vertical($colour1, $width1, $colour2, $width2, $colour3, $width3) {
+  $stop1: $width1;
+  $stop2: $width1 + $width2;
+  $stop3: $width1 + $width2 + $width3;
+
+  background: linear-gradient(
+    to right,
+    $colour1,
+    $colour1 $stop1,
+    $colour2 $stop1,
+    $colour2 $stop2,
+    $colour3 $stop2,
+    $colour3 $stop3
+  );
+}
+
+@mixin stripes-horizontal($colour1, $width1, $colour2, $width2, $colour3, $width3) {
+    background: linear-gradient(to bottom, $args...);
 }

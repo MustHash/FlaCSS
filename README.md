@@ -198,7 +198,8 @@ Flags from all around the world, just with CSS.
 - [ ] Uganda
 - [ ] Ukraine
 - [ ] United Arab Emirates
-- [x] United Kingdom
+- [x] United States of America
+- [ ] United Kingdom
 - [ ] Uruguay
 - [ ] Uzbekistan
 - [ ] Vanuatu
