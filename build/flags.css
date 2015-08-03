@@ -159,6 +159,7 @@
 /**
  * Country: Russia
  * Link:    https://en.wikipedia.org/wiki/Flag_of_Russia
+ *          https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg
  * Ratio:   2:3
  * Colours: white - #ffffff
  *          blue  - #0039a6
@@ -169,4 +170,19 @@
   height: 2em;
   width: 3em;
   background: linear-gradient(to bottom, #ffffff, #ffffff 33.33%, #0039a6 33.33%, #0039a6 66.66%, #d52b1e 66.66%, #d52b1e 100%);
+}
+
+/**
+ * Country: Austria
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Austria
+ *          https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg
+ * Ratio:   2:3
+ * Colours: red - #ed2923
+ *          white - #ffffff
+ */
+.flacss-austria {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #ed2923, #ed2923 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ed2923 66.66%, #ed2923 100%);
 }

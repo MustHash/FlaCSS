@@ -12,7 +12,7 @@ Flags from all around the world, just with CSS.
 - [ ] Armenia
 - [ ] Aruba
 - [ ] Australia
-- [ ] Austria
+- [x] Austria
 - [ ] Azerbaijan
 - [ ] Bahamas, The
 - [ ] Bahrain
@@ -65,11 +65,11 @@ Flags from all around the world, just with CSS.
 - [ ] Ethiopia
 - [ ] Fiji
 - [ ] Finland
-- [ ] France
+- [x] France
 - [ ] Gabon
 - [ ] Gambia, The
 - [ ] Georgia
-- [ ] Germany
+- [x] Germany
 - [ ] Ghana
 - [x] Greece
 - [ ] Grenada
@@ -153,7 +153,7 @@ Flags from all around the world, just with CSS.
 - [ ] Portugal
 - [ ] Qatar
 - [ ] Romania
-- [ ] Russia
+- [x] Russia
 - [ ] Rwanda
 - [ ] Saint Kitts and Nevis
 - [ ] Saint Lucia

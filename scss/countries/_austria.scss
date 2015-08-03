@@ -1,0 +1,20 @@
+/**
+ * Country: Austria
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Austria
+ *          https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg
+ * Ratio:   2:3
+ * Colours: red - #ed2923
+ *          white - #ffffff
+ */
+.#{$namespace}-austria {
+  $height: 2em;
+  $width: 3em;
+  $red: #ed2923;
+  $white: #ffffff;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($red, $white, $red);
+}
