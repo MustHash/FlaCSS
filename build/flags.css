@@ -244,3 +244,17 @@
   width: 3em;
   background: linear-gradient(to bottom, #ce1126, #ce1126 50%, #ffffff 50%, #ffffff 100%);
 }
+
+/**
+ * Country: Poland
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Poland
+ * Ratio:   5:8
+ * Colours: white - #ffffff
+ *          red   - #dc143c
+ */
+.flacss-poland {
+  position: relative;
+  height: 5em;
+  width: 8em;
+  background: linear-gradient(to bottom, #ffffff, #ffffff 50%, #dc143c 50%, #dc143c 100%);
+}

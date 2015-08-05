@@ -1,0 +1,19 @@
+/**
+ * Country: Poland
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Poland
+ * Ratio:   5:8
+ * Colours: white - #ffffff
+ *          red   - #dc143c
+ */
+.#{$namespace}-poland {
+  $height: 5em;
+  $width: 8em;
+  $white: #ffffff;
+  $red: #dc143c;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include two-horizontal-stripes($white, $red);
+}

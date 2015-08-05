@@ -84,7 +84,7 @@ Flags from all around the world, just with CSS.
 - [ ] Hungary
 - [ ] Iceland
 - [ ] India
-- [ ] Indonesia
+- [x] Indonesia
 - [ ] Iran
 - [ ] Iraq
 - [ ] Ireland
@@ -149,7 +149,7 @@ Flags from all around the world, just with CSS.
 - [ ] Paraguay
 - [ ] Peru
 - [ ] Philippines
-- [ ] Poland
+- [x] Poland
 - [ ] Portugal
 - [ ] Qatar
 - [ ] Romania
