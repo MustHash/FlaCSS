@@ -17,7 +17,7 @@
 
 
 /**
- * Striped flag mixins.
+ * 2-striped flags.
  */
 
 @mixin two-stripes($angle, $colour1, $colour2, $percent1) {
@@ -32,9 +32,18 @@
   );
 }
 
+@mixin two-vertical-stripes($colour1, $colour2, $percent1: 50%) {
+  @include two-stripes(to right, $colour1, $colour2, $percent1);
+}
+
 @mixin two-horizontal-stripes($colour1, $colour2, $percent1: 50%) {
   @include two-stripes(to bottom, $colour1, $colour2, $percent1);
 }
+
+
+/**
+ * 3-striped flags.
+ */
 
 @mixin three-stripes($angle, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3) {
   @if $percent1 == false {
