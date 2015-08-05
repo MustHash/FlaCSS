@@ -1,0 +1,30 @@
+/**
+ * Country: Madagascar
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Madagascar
+ * Ratio:   2:3
+ * Colours: white - #ffffff
+ *          red   - #fc3d32
+ *          green - #007e3a
+ */
+.#{$namespace}-madagascar {
+  $height: 2em;
+  $width: 3em;
+  $white: #ffffff;
+  $red: #fc3d32;
+  $green: #007e3a;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include two-horizontal-stripes($red, $green);
+
+  &::before {
+    @include pseudo;
+    width: 33.33%;
+    background: $white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+}

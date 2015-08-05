@@ -201,3 +201,29 @@
   width: 3em;
   background: linear-gradient(to right, #009246, #009246 33.33%, #f1f2f1 33.33%, #f1f2f1 66.66%, #ce2b37 66.66%, #ce2b37 100%);
 }
+
+/**
+ * Country: Madagascar
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Madagascar
+ * Ratio:   2:3
+ * Colours: white - #ffffff
+ *          red   - #fc3d32
+ *          green - #007e3a
+ */
+.flacss-madagascar {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #fc3d32, #fc3d32 50%, #007e3a 50%, #007e3a 100%);
+}
+
+.flacss-madagascar::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 33.33%;
+  background: #ffffff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}

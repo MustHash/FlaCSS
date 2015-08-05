@@ -20,6 +20,22 @@
  * Striped flag mixins.
  */
 
+@mixin two-stripes($angle, $colour1, $colour2, $percent1) {
+  $percent2: 100%;
+
+  background: linear-gradient(
+    $angle,
+    $colour1,
+    $colour1 $percent1,
+    $colour2 $percent1,
+    $colour2 $percent2
+  );
+}
+
+@mixin two-horizontal-stripes($colour1, $colour2, $percent1: 50%) {
+  @include two-stripes(to bottom, $colour1, $colour2, $percent1);
+}
+
 @mixin three-stripes($angle, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3) {
   @if $percent1 == false {
     $percent1: 33.33%;
