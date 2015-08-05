@@ -1,0 +1,19 @@
+/**
+ * Country: Indonesia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Indonesia
+ * Ratio:   2:3
+ * Colours: red   - #ce1126
+ *          white - #ffffff
+ */
+.#{$namespace}-indonesia {
+  $height: 2em;
+  $width: 3em;
+  $white: #ffffff;
+  $red: #ce1126;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include two-horizontal-stripes($red, $white);
+}

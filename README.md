@@ -111,7 +111,7 @@ Flags from all around the world, just with CSS.
 - [ ] Lithuania
 - [ ] Luxembourg
 - [ ] Macau
-- [ ] Macedonia
+- [x] Macedonia
 - [ ] Madagascar
 - [ ] Malawi
 - [ ] Malaysia

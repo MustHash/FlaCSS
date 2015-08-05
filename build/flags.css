@@ -19,7 +19,10 @@
  * @param  {String} $char: ""  Content string, is necessary.
  */
 /**
- * Striped flag mixins.
+ * 2-striped flags.
+ */
+/**
+ * 3-striped flags.
  */
 /**
  * Country: Greece
@@ -226,4 +229,18 @@
   top: 0;
   left: 0;
   bottom: 0;
+}
+
+/**
+ * Country: Indonesia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Indonesia
+ * Ratio:   2:3
+ * Colours: red   - #ce1126
+ *          white - #ffffff
+ */
+.flacss-indonesia {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #ce1126, #ce1126 50%, #ffffff 50%, #ffffff 100%);
 }
