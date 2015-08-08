@@ -196,7 +196,7 @@ Flags from all around the world, just with CSS.
 - [ ] Turkmenistan
 - [ ] Tuvalu
 - [ ] Uganda
-- [ ] Ukraine
+- [x] Ukraine
 - [ ] United Arab Emirates
 - [x] United States of America
 - [ ] United Kingdom

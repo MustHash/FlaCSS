@@ -273,3 +273,17 @@
   width: 2em;
   background: linear-gradient(to right, #009a49, #009a49 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ff7900 66.66%, #ff7900 100%);
 }
+
+/**
+ * Country: Ukraine
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Ukraine
+ * Ratio:   2:3
+ * Colours: blue   - #005bbb
+ *          yellow - #ffd500
+ */
+.flacss-ukraine {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #005bbb, #005bbb 50%, #ffd500 50%, #ffd500 100%);
+}

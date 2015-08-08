@@ -1,0 +1,19 @@
+/**
+ * Country: Ukraine
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Ukraine
+ * Ratio:   2:3
+ * Colours: blue   - #005bbb
+ *          yellow - #ffd500
+ */
+.#{$namespace}-ukraine {
+  $height: 2em;
+  $width: 3em;
+  $blue: #005bbb;
+  $yellow: #ffd500;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include two-horizontal-stripes($blue, $yellow);
+}
