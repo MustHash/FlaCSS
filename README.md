@@ -109,7 +109,7 @@ Flags from all around the world, just with CSS.
 - [ ] Libya
 - [ ] Liechtenstein
 - [x] Lithuania
-- [ ] Luxembourg
+- [x] Luxembourg
 - [ ] Macau
 - [x] Macedonia
 - [ ] Madagascar

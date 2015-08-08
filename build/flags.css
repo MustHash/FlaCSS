@@ -317,3 +317,18 @@
   width: 3em;
   background: linear-gradient(to bottom, #ce1126, #ce1126 33.33%, #ffffff 33.33%, #ffffff 66.66%, #000000 66.66%, #000000 100%);
 }
+
+/**
+ * Country: Luxembourg
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Luxembourg
+ * Ratio:   1:2 or 3:5
+ * Colours: red - #ef3340
+ *          white - #ffffff
+ *          blue - #00a3e0
+ */
+.flacss-luxembourg {
+  position: relative;
+  height: 3em;
+  width: 5em;
+  background: linear-gradient(to bottom, #ef3340, #ef3340 33.33%, #ffffff 33.33%, #ffffff 66.66%, #00a3e0 66.66%, #00a3e0 100%);
+}

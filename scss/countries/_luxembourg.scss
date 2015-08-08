@@ -1,0 +1,21 @@
+/**
+ * Country: Luxembourg
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Luxembourg
+ * Ratio:   1:2 or 3:5
+ * Colours: red - #ef3340
+ *          white - #ffffff
+ *          blue - #00a3e0
+ */
+.#{$namespace}-luxembourg {
+  $height: 3em;
+  $width: 5em;
+  $red: #ef3340;
+  $white: #ffffff;
+  $blue: #00a3e0;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($red, $white, $blue);
+}
