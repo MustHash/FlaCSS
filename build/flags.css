@@ -287,3 +287,33 @@
   width: 3em;
   background: linear-gradient(to bottom, #005bbb, #005bbb 50%, #ffd500 50%, #ffd500 100%);
 }
+
+/**
+ * Country: Lithuania
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Lithuania
+ * Ratio:   3:5
+ * Colours: yellow - #fdb913
+ *          green  - #006a44
+ *          red    - #c1272d
+ */
+.flacss-lithuania {
+  position: relative;
+  height: 3em;
+  width: 5em;
+  background: linear-gradient(to bottom, #fdb913, #fdb913 33.33%, #006a44 33.33%, #006a44 66.66%, #c1272d 66.66%, #c1272d 100%);
+}
+
+/**
+ * Country: Yemen
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Yemen
+ * Ratio:   2:3
+ * Colours: red   - #ce1126
+ *          white - #ffffff
+ *          black - #000000
+ */
+.flacss-yemen {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #ce1126, #ce1126 33.33%, #ffffff 33.33%, #ffffff 66.66%, #000000 66.66%, #000000 100%);
+}

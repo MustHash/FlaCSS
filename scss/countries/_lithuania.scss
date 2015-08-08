@@ -1,0 +1,21 @@
+/**
+ * Country: Lithuania
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Lithuania
+ * Ratio:   3:5
+ * Colours: yellow - #fdb913
+ *          green  - #006a44
+ *          red    - #c1272d
+ */
+.#{$namespace}-lithuania {
+  $height: 3em;
+  $width: 5em;
+  $yellow: #fdb913;
+  $green: #006a44;
+  $red: #c1272d;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($yellow, $green, $red);
+}

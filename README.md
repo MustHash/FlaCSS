@@ -108,7 +108,7 @@ Flags from all around the world, just with CSS.
 - [ ] Liberia
 - [ ] Libya
 - [ ] Liechtenstein
-- [ ] Lithuania
+- [x] Lithuania
 - [ ] Luxembourg
 - [ ] Macau
 - [x] Macedonia
@@ -205,7 +205,7 @@ Flags from all around the world, just with CSS.
 - [ ] Vanuatu
 - [ ] Venezuela
 - [ ] Vietnam
-- [ ] Yemen
+- [x] Yemen
 - [ ] Zambia
 - [ ] Zimbabwe
 
