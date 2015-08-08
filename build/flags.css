@@ -258,3 +258,18 @@
   width: 8em;
   background: linear-gradient(to bottom, #ffffff, #ffffff 50%, #dc143c 50%, #dc143c 100%);
 }
+
+/**
+ * Country: Ireland
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Ireland
+ * Ratio:   1:2
+ * Colours: green  - #009a49
+ *          white  - #ffffff
+ *          orange - #ff7900
+ */
+.flacss-ireland {
+  position: relative;
+  height: 1em;
+  width: 2em;
+  background: linear-gradient(to right, #009a49, #009a49 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ff7900 66.66%, #ff7900 100%);
+}

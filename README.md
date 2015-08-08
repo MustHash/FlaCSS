@@ -87,7 +87,7 @@ Flags from all around the world, just with CSS.
 - [x] Indonesia
 - [ ] Iran
 - [ ] Iraq
-- [ ] Ireland
+- [x] Ireland
 - [ ] Israel
 - [x] Italy
 - [ ] Jamaica
@@ -210,5 +210,6 @@ Flags from all around the world, just with CSS.
 - [ ] Zimbabwe
 
 ## Further reading
+- [Country flags of the world](https://www.countries-ofthe-world.com/flags-of-the-world.html)
 - `node-sass` [CLI documentation](https://github.com/sass/node-sass#command-line-interface)
 - [How to Use npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)

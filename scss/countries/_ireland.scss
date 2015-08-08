@@ -1,0 +1,21 @@
+/**
+ * Country: Ireland
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Ireland
+ * Ratio:   1:2
+ * Colours: green  - #009a49
+ *          white  - #ffffff
+ *          orange - #ff7900
+ */
+.#{$namespace}-ireland {
+  $height: 1em;
+  $width: 2em;
+  $green: #009a49;
+  $white: #ffffff;
+  $orange: #ff7900;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-vertical-stripes($green, $white, $orange);
+}
