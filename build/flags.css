@@ -332,3 +332,18 @@
   width: 5em;
   background: linear-gradient(to bottom, #ef3340, #ef3340 33.33%, #ffffff 33.33%, #ffffff 66.66%, #00a3e0 66.66%, #00a3e0 100%);
 }
+
+/**
+ * Country: Humgary
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Hungary
+ * Ratio:   1:2
+ * Colours: red   - #436f4d
+ *          white - #ffffff
+ *          green - #cd2a3e
+ */
+.flacss-hungary {
+  position: relative;
+  height: 1em;
+  width: 2em;
+  background: linear-gradient(to bottom, #436f4d, #436f4d 33.33%, #ffffff 33.33%, #ffffff 66.66%, #cd2a3e 66.66%, #cd2a3e 100%);
+}

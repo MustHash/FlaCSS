@@ -1,0 +1,21 @@
+/**
+ * Country: Humgary
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Hungary
+ * Ratio:   1:2
+ * Colours: red   - #436f4d
+ *          white - #ffffff
+ *          green - #cd2a3e
+ */
+.#{$namespace}-hungary {
+  $height: 1em;
+  $width: 2em;
+  $red: #436f4d;
+  $white: #ffffff;
+  $green: #cd2a3e;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($red, $white, $green);
+}

@@ -81,7 +81,7 @@ Flags from all around the world, just with CSS.
 - [ ] Holy See
 - [ ] Honduras
 - [ ] Hong Kong
-- [ ] Hungary
+- [x] Hungary
 - [ ] Iceland
 - [ ] India
 - [x] Indonesia
