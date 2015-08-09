@@ -347,3 +347,18 @@
   width: 2em;
   background: linear-gradient(to bottom, #436f4d, #436f4d 33.33%, #ffffff 33.33%, #ffffff 66.66%, #cd2a3e 66.66%, #cd2a3e 100%);
 }
+
+/**
+ * Country: Armenia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Armenia
+ * Ratio:   1:2
+ * Colours: red    - #d90012
+ *          blue   - #0033a0
+ *          yellow - #f2a800
+ */
+.flacss-armenia {
+  position: relative;
+  height: 3em;
+  width: 5em;
+  background: linear-gradient(to bottom, #d90012, #d90012 33.33%, #0033a0 33.33%, #0033a0 66.66%, #f2a800 66.66%, #f2a800 100%);
+}

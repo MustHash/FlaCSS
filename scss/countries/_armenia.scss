@@ -1,0 +1,21 @@
+/**
+ * Country: Armenia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Armenia
+ * Ratio:   1:2
+ * Colours: red    - #d90012
+ *          blue   - #0033a0
+ *          yellow - #f2a800
+ */
+.#{$namespace}-armenia {
+  $height: 3em;
+  $width: 5em;
+  $red: #d90012;
+  $blue: #0033a0;
+  $yellow: #f2a800;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($red, $blue, $yellow);
+}

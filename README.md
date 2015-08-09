@@ -9,7 +9,7 @@ Flags from all around the world, just with CSS.
 - [ ] Angola
 - [ ] Antigua and Barbuda
 - [ ] Argentina
-- [ ] Armenia
+- [x] Armenia
 - [ ] Aruba
 - [ ] Australia
 - [x] Austria
