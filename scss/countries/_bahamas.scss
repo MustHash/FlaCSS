@@ -1,0 +1,32 @@
+/**
+ * Country: Bahamas
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_the_Bahamas
+ * Ratio:   1:2
+ * Colours: blue   - #00abc9
+ *          yellow - #fae042
+ *          black  - #000000
+ */
+.#{$namespace}-bahamas {
+  $height: 1em;
+  $width: 2em;
+  $blue: #00abc9;
+  $yellow: #fae042;
+  $black: #000000;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($blue, $yellow, $blue);
+
+  &::before {
+    @include pseudo;
+
+    top: 0;
+    left: 0;
+    border-left: .866em solid $black;
+    border-top: .5em solid transparent;
+    border-right: .866em solid transparent;
+    border-bottom: .5em solid transparent;
+  }
+}

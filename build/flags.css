@@ -362,3 +362,30 @@
   width: 5em;
   background: linear-gradient(to bottom, #d90012, #d90012 33.33%, #0033a0 33.33%, #0033a0 66.66%, #f2a800 66.66%, #f2a800 100%);
 }
+
+/**
+ * Country: Bahamas
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_the_Bahamas
+ * Ratio:   1:2
+ * Colours: blue   - #00abc9
+ *          yellow - #fae042
+ *          black  - #000000
+ */
+.flacss-bahamas {
+  position: relative;
+  height: 1em;
+  width: 2em;
+  background: linear-gradient(to bottom, #00abc9, #00abc9 33.33%, #fae042 33.33%, #fae042 66.66%, #00abc9 66.66%, #00abc9 100%);
+}
+
+.flacss-bahamas::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 0.866em solid #000000;
+  border-top: .5em solid transparent;
+  border-right: .866em solid transparent;
+  border-bottom: .5em solid transparent;
+}
