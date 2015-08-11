@@ -389,3 +389,18 @@
   border-right: .866em solid transparent;
   border-bottom: .5em solid transparent;
 }
+
+/**
+ * Country: Colombia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Colombia
+ * Ratio:   2:3
+ * Colours: yellow - #fcd116
+ *          blue   - #003893
+ *          red    - #ce1126
+ */
+.flacss-colombia {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #fcd116, #fcd116 50%, #003893 50%, #003893 75%, #ce1126 75%, #ce1126 100%);
+}

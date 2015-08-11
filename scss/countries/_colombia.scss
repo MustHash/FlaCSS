@@ -1,0 +1,21 @@
+/**
+ * Country: Colombia
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Colombia
+ * Ratio:   2:3
+ * Colours: yellow - #fcd116
+ *          blue   - #003893
+ *          red    - #ce1126
+ */
+.#{$namespace}-colombia {
+  $height: 2em;
+  $width: 3em;
+  $yellow: #fcd116;
+  $blue: #003893;
+  $red: #ce1126;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($yellow, $blue, $red, 50%, 25%);
+}

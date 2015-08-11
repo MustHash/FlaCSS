@@ -40,7 +40,7 @@ Flags from all around the world, just with CSS.
 - [ ] Chad
 - [ ] Chile
 - [ ] China
-- [ ] Colombia
+- [x] Colombia
 - [ ] Comoros
 - [ ] Congo, Democratic Republic of the
 - [ ] Congo, Republic of the

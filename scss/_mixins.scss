@@ -45,12 +45,14 @@
  * 3-striped flags.
  */
 
-@mixin three-stripes($angle, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3) {
+@mixin three-stripes($angle, $colour1, $colour2, $colour3, $percent1, $percent2) {
   @if $percent1 == false {
     $percent1: 33.33%;
     $percent2: 66.66%;
-    $percent3: 100%;
+  } @else {
+    $percent2: $percent2 + $percent1;
   }
+  $percent3: 100%;
 
   background: linear-gradient(
     $angle,
@@ -63,12 +65,12 @@
   );
 }
 
-@mixin three-vertical-stripes($colour1, $colour2, $colour3, $percent1: false, $percent2: false, $percent3: false) {
-  @include three-stripes(to right, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3);
+@mixin three-vertical-stripes($colour1, $colour2, $colour3, $percent1: false, $percent2: false) {
+  @include three-stripes(to right, $colour1, $colour2, $colour3, $percent1, $percent2);
 }
 
-@mixin three-horizontal-stripes($colour1, $colour2, $colour3, $percent1: false, $percent2: false, $percent3: false) {
-  @include three-stripes(to bottom, $colour1, $colour2, $colour3, $percent1, $percent2, $percent3);
+@mixin three-horizontal-stripes($colour1, $colour2, $colour3, $percent1: false, $percent2: false) {
+  @include three-stripes(to bottom, $colour1, $colour2, $colour3, $percent1, $percent2);
 }
 
 
