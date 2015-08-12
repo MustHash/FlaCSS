@@ -1,0 +1,21 @@
+/**
+ * Country: Belgium
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Belgium
+ * Ratio:   2:3 (but officially 13:15)
+ * Colours: black  - #000000
+ *          yellow - #ffe936
+ *          red - #ff0f21
+ */
+.#{$namespace}-belgium {
+  $height: 2em;
+  $width: 3em;
+  $black: #000000;
+  $yellow: #ffe936;
+  $red: #ff0f21;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-vertical-stripes($black, $yellow, $red);
+}

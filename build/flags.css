@@ -432,3 +432,18 @@
   background: #f42a41;
   border-radius: 50%;
 }
+
+/**
+ * Country: Belgium
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Belgium
+ * Ratio:   2:3 (but officially 13:15)
+ * Colours: black  - #000000
+ *          yellow - #ffe936
+ *          red - #ff0f21
+ */
+.flacss-belgium {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to right, #000000, #000000 33.33%, #ffe936 33.33%, #ffe936 66.66%, #ff0f21 66.66%, #ff0f21 100%);
+}

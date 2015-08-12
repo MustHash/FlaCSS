@@ -19,7 +19,7 @@ Flags from all around the world, just with CSS.
 - [x] Bangladesh
 - [ ] Barbados
 - [ ] Belarus
-- [ ] Belgium
+- [x] Belgium
 - [ ] Belize
 - [ ] Benin
 - [ ] Bhutan
