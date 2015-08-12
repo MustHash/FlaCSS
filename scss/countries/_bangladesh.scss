@@ -1,0 +1,33 @@
+/**
+ * Country: Bangladesh
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Bangladesh
+ * Ratio:   3:5
+ * Colours: green - #006a4e
+ *          red   - #f42a41
+ */
+.#{$namespace}-bangladesh {
+  $height: 3em;
+  $width: 5em;
+  $green: #006a4e;
+  $red: #f42a41;
+
+  @include flag;
+  height: $height;
+  width: $width;
+  background: $green;
+
+  &::before {
+    @include pseudo;
+    $radius: $width / 5;
+    $diameter: 2 * $radius;
+
+    height: $diameter;
+    width: $diameter;
+    top: 50%;
+    left: 9 * $width / 20;
+    margin-top: -$radius;
+    margin-left: -$radius;
+    background: $red;
+    border-radius: 50%;
+  }
+}

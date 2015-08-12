@@ -404,3 +404,31 @@
   width: 3em;
   background: linear-gradient(to bottom, #fcd116, #fcd116 50%, #003893 50%, #003893 75%, #ce1126 75%, #ce1126 100%);
 }
+
+/**
+ * Country: Bangladesh
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Bangladesh
+ * Ratio:   3:5
+ * Colours: green - #006a4e
+ *          red   - #f42a41
+ */
+.flacss-bangladesh {
+  position: relative;
+  height: 3em;
+  width: 5em;
+  background: #006a4e;
+}
+
+.flacss-bangladesh::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2em;
+  width: 2em;
+  top: 50%;
+  left: 2.25em;
+  margin-top: -1em;
+  margin-left: -1em;
+  background: #f42a41;
+  border-radius: 50%;
+}

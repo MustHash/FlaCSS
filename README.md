@@ -14,9 +14,9 @@ Flags from all around the world, just with CSS.
 - [ ] Australia
 - [x] Austria
 - [ ] Azerbaijan
-- [ ] Bahamas, The
+- [x] Bahamas, The
 - [ ] Bahrain
-- [ ] Bangladesh
+- [x] Bangladesh
 - [ ] Barbados
 - [ ] Belarus
 - [ ] Belgium
