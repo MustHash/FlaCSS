@@ -1,0 +1,30 @@
+/**
+ * Country: Benin
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Benin
+ * Ratio:   2:3
+ * Colours: yellow - #fcd116
+ *          red    - #e8112d
+ *          green  - #008751
+ */
+.#{$namespace}-benin {
+  $height: 2em;
+  $width: 3em;
+  $yellow: #fcd116;
+  $red: #e8112d;
+  $green: #008751;
+
+  @include flag;
+  height: $height;
+  width: $width;
+  @include two-horizontal-stripes($yellow, $red);
+
+  &::before {
+    @include pseudo;
+
+    width: 2 * $width / 5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: $green;
+  }
+}

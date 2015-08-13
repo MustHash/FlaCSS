@@ -447,3 +447,29 @@
   width: 3em;
   background: linear-gradient(to right, #000000, #000000 33.33%, #ffe936 33.33%, #ffe936 66.66%, #ff0f21 66.66%, #ff0f21 100%);
 }
+
+/**
+ * Country: Benin
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Benin
+ * Ratio:   2:3
+ * Colours: yellow - #fcd116
+ *          red    - #e8112d
+ *          green  - #008751
+ */
+.flacss-benin {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to bottom, #fcd116, #fcd116 50%, #e8112d 50%, #e8112d 100%);
+}
+
+.flacss-benin::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1.2em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #008751;
+}

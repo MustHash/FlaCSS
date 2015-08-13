@@ -21,7 +21,7 @@ Flags from all around the world, just with CSS.
 - [ ] Belarus
 - [x] Belgium
 - [ ] Belize
-- [ ] Benin
+- [x] Benin
 - [ ] Bhutan
 - [ ] Bolivia
 - [ ] Bosnia and Herzegovina
