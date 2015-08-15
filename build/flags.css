@@ -473,3 +473,31 @@
   bottom: 0;
   background: #008751;
 }
+
+/**
+ * Country: Palau
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Palau
+ *          https://flagspot.net/flags/pw.html
+ * Ratio:   5:8
+ * Colours: blue  - #4aadd6
+ *          yellow - #ffde00
+ */
+.flacss-palau {
+  position: relative;
+  height: 5em;
+  width: 8em;
+  background: #4aadd6;
+}
+
+.flacss-palau::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  background: #ffde00;
+  border-radius: 50%;
+  top: 50%;
+  left: 2em;
+  margin-top: -1.5em;
+}

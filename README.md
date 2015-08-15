@@ -142,7 +142,7 @@ Flags from all around the world, just with CSS.
 - [ ] Norway
 - [ ] Oman
 - [ ] Pakistan
-- [ ] Palau
+- [x] Palau
 - [ ] Palestinian Territories
 - [ ] Panama
 - [ ] Papua New Guinea
