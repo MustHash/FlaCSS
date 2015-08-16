@@ -542,3 +542,29 @@
   width: 3em;
   background: linear-gradient(to right, #ce1126, #ce1126 33.33%, #fcd116 33.33%, #fcd116 66.66%, #009460 66.66%, #009460 100%);
 }
+
+/**
+ * Country: Ghana
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Ghana
+ * Ratio:   3:5
+ * Colours: red    - #ce1126
+ *          yellow - #fcd116
+ *          green  - #006b3f
+ */
+.flacss-ghana {
+  position: relative;
+  height: 3em;
+  width: 5em;
+  background: linear-gradient(to bottom, #ce1126, #ce1126 33.33%, #fcd116 33.33%, #fcd116 66.66%, #006b3f 66.66%, #006b3f 100%);
+}
+
+.flacss-ghana::before {
+  content: "★";
+  display: block;
+  position: absolute;
+  top: 33.33%;
+  left: 50%;
+  margin-left: -0.55em;
+  line-height: 1.1em;
+  color: #000000;
+}

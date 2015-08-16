@@ -70,7 +70,7 @@ Flags from all around the world, just with CSS.
 - [ ] Gambia, The
 - [ ] Georgia
 - [x] Germany
-- [ ] Ghana
+- [x] Ghana
 - [x] Greece
 - [ ] Grenada
 - [ ] Guatemala
