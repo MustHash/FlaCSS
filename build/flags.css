@@ -527,3 +527,18 @@
   right: 0;
   background: #000000;
 }
+
+/**
+ * Country: Guinea
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Guinea
+ * Ratio:   2:3
+ * Colours: red    - #ce1126
+ *          yellow - #fcd116
+ *          green  - #009460
+ */
+.flacss-guinea {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to right, #ce1126, #ce1126 33.33%, #fcd116 33.33%, #fcd116 66.66%, #009460 66.66%, #009460 100%);
+}

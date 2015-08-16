@@ -74,7 +74,7 @@ Flags from all around the world, just with CSS.
 - [x] Greece
 - [ ] Grenada
 - [ ] Guatemala
-- [ ] Guinea
+- [x] Guinea
 - [ ] Guinea-Bissau
 - [ ] Guyana
 - [ ] Haiti
