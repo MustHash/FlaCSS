@@ -1,0 +1,33 @@
+/**
+ * Country: Ghana
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Ghana
+ * Ratio:   3:5
+ * Colours: red    - #ce1126
+ *          yellow - #fcd116
+ *          green  - #006b3f
+ */
+.#{$namespace}-ghana {
+  $height: 3em;
+  $width: 5em;
+  $red: #ce1126;
+  $yellow: #fcd116;
+  $green: #006b3f;
+  $black: #000000;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-horizontal-stripes($red, $yellow, $green);
+
+  &::before {
+    @include pseudo("★");
+
+    $star-height: $height / 3;
+    top: 33.33%;
+    left: 50%;
+    margin-left: -$star-height / 2;
+    line-height: $star-height;
+    color: $black;
+  }
+}

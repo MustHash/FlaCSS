@@ -19,7 +19,6 @@
 
   @include three-horizontal-stripes($blue, $white, $blue, 37.5%, 25%);
 
-
   &::before {
     @include pseudo;
 
