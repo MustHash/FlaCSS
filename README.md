@@ -25,7 +25,7 @@ Flags from all around the world, just with CSS.
 - [ ] Bhutan
 - [ ] Bolivia
 - [ ] Bosnia and Herzegovina
-- [ ] Botswana
+- [x] Botswana
 - [ ] Brazil
 - [ ] Brunei
 - [ ] Bulgaria
