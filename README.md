@@ -88,7 +88,7 @@ Flags from all around the world, just with CSS.
 - [ ] Iran
 - [ ] Iraq
 - [x] Ireland
-- [ ] Israel
+- [x] Israel
 - [x] Italy
 - [ ] Jamaica
 - [x] Japan

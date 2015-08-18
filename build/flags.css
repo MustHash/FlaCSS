@@ -564,7 +564,33 @@
   position: absolute;
   top: 33.33%;
   left: 50%;
-  margin-left: -0.55em;
-  line-height: 1.1em;
+  margin-left: -0.5em;
+  line-height: 1em;
   color: #000000;
+}
+
+/**
+ * Country: Israel
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Israel
+ * Ratio:   2:3
+ * Colours: blue  - #0038b8
+ *          white - #ffffff
+ */
+.flacss-israel {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: repeating-linear-gradient(to bottom, #ffffff, #ffffff 0.1875em, #0038b8 0.1875em, #0038b8 0.5em, #ffffff 0.5em, #ffffff 1.5em, #0038b8 1.5em, #0038b8 1.8125em, #ffffff 1.8125em, #ffffff 2em);
+}
+
+.flacss-israel::before {
+  content: "✡";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #0038b8;
+  line-height: 2em;
+  text-align: center;
 }

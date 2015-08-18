@@ -1,0 +1,44 @@
+/**
+ * Country: Israel
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Israel
+ * Ratio:   2:3
+ * Colours: blue  - #0038b8
+ *          white - #ffffff
+ */
+.#{$namespace}-israel {
+  $height: 2em;
+  $width: 3em;
+  $blue: #0038b8;
+  $white: #ffffff;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  $whiteStripeSmall: 15 * $height / 160;
+  $blueStripe: 25 * $height / 160;
+  $whiteStripeBig: 80 * $height / 160;
+  background: repeating-linear-gradient(
+    to bottom,
+    $white,
+    $white $whiteStripeSmall,
+    $blue $whiteStripeSmall,
+    $blue $whiteStripeSmall + $blueStripe,
+    $white $whiteStripeSmall + $blueStripe,
+    $white $whiteStripeSmall + $blueStripe + $whiteStripeBig,
+    $blue $whiteStripeSmall + $blueStripe + $whiteStripeBig,
+    $blue $whiteStripeSmall + $blueStripe + $whiteStripeBig + $blueStripe,
+    $white $whiteStripeSmall + $blueStripe + $whiteStripeBig + $blueStripe,
+    $white $height
+  );
+
+  &::before {
+    @include pseudo("✡");
+    top: 0;
+    left: 0;
+    right: 0;
+    color: $blue;
+    line-height: $height;
+    text-align: center;
+  }
+}
