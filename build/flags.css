@@ -594,3 +594,42 @@
   line-height: 2em;
   text-align: center;
 }
+
+/**
+ * Country: Kuwait
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Kuwait
+ * Ratio:   1:2
+ * Colours: green - #007a3d
+ *          white - #ffffff
+ *          red   - #ce1126
+ *          black - #000000
+ */
+.flacss-kuwait {
+  position: relative;
+  height: 1em;
+  width: 2em;
+  background: linear-gradient(to bottom, #007a3d, #007a3d 50%, #ce1126 50%, #ce1126 100%);
+}
+
+.flacss-kuwait::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.33333em;
+  border-top: 0.33333em solid transparent;
+  border-left: 0.5em solid #000000;
+  border-bottom: 0.33333em solid transparent;
+  top: 0;
+  left: 0;
+}
+
+.flacss-kuwait::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.33333em;
+  width: 1.5em;
+  background: #ffffff;
+  top: 0.33333em;
+  right: 0;
+}

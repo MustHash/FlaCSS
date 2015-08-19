@@ -99,7 +99,7 @@ Flags from all around the world, just with CSS.
 - [ ] Korea, North
 - [ ] Korea, South
 - [ ] Kosovo
-- [ ] Kuwait
+- [x] Kuwait
 - [ ] Kyrgyzstan
 - [ ] Laos
 - [ ] Latvia

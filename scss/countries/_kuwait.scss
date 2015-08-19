@@ -1,0 +1,46 @@
+/**
+ * Country: Kuwait
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Kuwait
+ * Ratio:   1:2
+ * Colours: green - #007a3d
+ *          white - #ffffff
+ *          red   - #ce1126
+ *          black - #000000
+ */
+.#{$namespace}-kuwait {
+  $height: 1em;
+  $width: 2em;
+  $green: #007a3d;
+  $white: #ffffff;
+  $red: #ce1126;
+  $black: #000000;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include two-horizontal-stripes($green, $red);
+
+  &::before {
+    @include pseudo;
+    $height_third: $height / 3;
+
+    height: $height_third;
+    border-top: $height_third solid transparent;
+    border-left: ($height / 2) solid $black;
+    border-bottom: $height_third solid transparent;
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    @include pseudo;
+    $height_third: $height / 3;
+
+    height: $height_third;
+    width: $width * 9 / 12;
+    background: $white;
+    top: $height_third;
+    right: 0;
+  }
+}
