@@ -186,7 +186,7 @@ Flags from all around the world, just with CSS.
 - [ ] Taiwan
 - [ ] Tajikistan
 - [ ] Tanzania
-- [ ] Thailand
+- [x] Thailand
 - [ ] Timor-Leste
 - [ ] Togo
 - [ ] Tonga
