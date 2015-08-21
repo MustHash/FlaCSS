@@ -1,0 +1,40 @@
+/**
+ * Country: Thailand
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Thailand
+ * Ratio:   2:3
+ * Colours: red   - #ed1c24
+ *          white - #ffffff
+ *          blue  - #241d4f
+ */
+.#{$namespace}-thailand {
+  $height: 2em;
+  $width: 3em;
+  $red: #ed1c24;
+  $white: #ffffff;
+  $blue: #241d4f;
+
+  @include flag;
+  height: $height;
+  width: $width;
+  background: $red;
+
+  &::before {
+    @include pseudo;
+
+    height: $height * 4 / 6;
+    top: $height / 6;
+    left: 0;
+    right: 0;
+    background: $white;
+  }
+
+  &::after {
+    @include pseudo;
+
+    height: $height * 2 / 6;
+    top: $height * 2 / 6;
+    left: 0;
+    right: 0;
+    background: $blue;
+  }
+}
