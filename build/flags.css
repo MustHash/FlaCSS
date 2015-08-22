@@ -670,3 +670,31 @@
   right: 0;
   background: #241d4f;
 }
+
+/**
+ * Country: Senegal
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Senegal
+ * Ratio:   2:3
+ * Colours: green  - #00853f
+ *          yellow - #fdef42
+ *          red    - #e31b23
+ */
+.flacss-senegal {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to right, #00853f, #00853f 33.33%, #fdef42 33.33%, #fdef42 66.66%, #e31b23 66.66%, #e31b23 100%);
+}
+
+.flacss-senegal::before {
+  content: "★";
+  display: block;
+  position: absolute;
+  color: #00853f;
+  width: 100%;
+  font-size: .75em;
+  text-align: center;
+  top: 50%;
+  margin-top: -.5em;
+  line-height: 1em;
+}

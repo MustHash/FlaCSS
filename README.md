@@ -162,7 +162,7 @@ Flags from all around the world, just with CSS.
 - [ ] San Marino
 - [ ] Sao Tome and Principe
 - [ ] Saudi Arabia
-- [ ] Senegal
+- [x] Senegal
 - [ ] Serbia
 - [ ] Seychelles
 - [ ] Sierra Leone

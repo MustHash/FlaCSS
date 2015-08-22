@@ -1,0 +1,33 @@
+/**
+ * Country: Senegal
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Senegal
+ * Ratio:   2:3
+ * Colours: green  - #00853f
+ *          yellow - #fdef42
+ *          red    - #e31b23
+ */
+.#{$namespace}-senegal {
+  $height: 2em;
+  $width: 3em;
+  $green: #00853f;
+  $yellow: #fdef42;
+  $red: #e31b23;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-vertical-stripes($green, $yellow, $red);
+
+  &::before {
+    @include pseudo("★");
+
+    color: $green;
+    width: 100%;
+    font-size: .75em;
+    text-align: center;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1em;
+  }
+}
