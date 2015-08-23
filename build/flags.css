@@ -698,3 +698,17 @@
   margin-top: -.5em;
   line-height: 1em;
 }
+
+/**
+ * Country: Monaco
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Monaco
+ * Ratio:   4:5 (or 2:3)
+ * Colours: red   - #ce1126
+ *          white - #ffffff
+ */
+.flacss-monaco {
+  position: relative;
+  height: 4em;
+  width: 5em;
+  background: linear-gradient(to bottom, #ce1126, #ce1126 50%, #ffffff 50%, #ffffff 100%);
+}

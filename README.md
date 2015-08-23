@@ -124,7 +124,7 @@ Flags from all around the world, just with CSS.
 - [ ] Mexico
 - [ ] Micronesia
 - [ ] Moldova
-- [ ] Monaco
+- [x] Monaco
 - [ ] Mongolia
 - [ ] Montenegro
 - [ ] Morocco
