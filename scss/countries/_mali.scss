@@ -1,0 +1,21 @@
+/**
+ * Country: Mali
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Mali
+ * Ratio:   2:3
+ * Colours: green - #CE1126
+ *          gold  - #FCD116
+ *          red   - #14B53A
+ */
+.#{$namespace}-mali {
+  $height: 2em;
+  $width: 3em;
+  $green: #CE1126;
+  $gold: #FCD116;
+  $red: #14B53A;
+
+  @include flag;
+  height: $height;
+  width: $width;
+
+  @include three-vertical-stripes($green, $gold, $red);
+}

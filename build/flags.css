@@ -75,8 +75,7 @@
   background: repeating-linear-gradient(0, #b22234, #b22234 7.69231%, #ffffff 7.69231%, #ffffff 15.38462%);
 }
 
-.flacss-usa::before,
-.flacss-usa::after {
+.flacss-usa::before, .flacss-usa::after {
   height: 53.84615%;
   width: 38%;
   font-size: .5em;
@@ -711,4 +710,19 @@
   height: 4em;
   width: 5em;
   background: linear-gradient(to bottom, #ce1126, #ce1126 50%, #ffffff 50%, #ffffff 100%);
+}
+
+/**
+ * Country: Mali
+ * Link:    https://en.wikipedia.org/wiki/Flag_of_Mali
+ * Ratio:   2:3
+ * Colours: green - #CE1126
+ *          gold  - #FCD116
+ *          red   - #14B53A
+ */
+.flacss-mali {
+  position: relative;
+  height: 2em;
+  width: 3em;
+  background: linear-gradient(to right, #CE1126, #CE1126 33.33%, #FCD116 33.33%, #FCD116 66.66%, #14B53A 66.66%, #14B53A 100%);
 }
